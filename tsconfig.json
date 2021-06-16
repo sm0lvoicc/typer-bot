@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"outDir": "./",
+		"module": "commonjs",
+		"target": "ES2020",
+		"lib": ["ESNext"],
+		"alwaysStrict": true,
+		"strict": true,
+		"preserveConstEnums": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"types": ["@types/node", "@types/ws"],
+		"resolveJsonModule": true
+	},
+	"include": ["*.ts"],
+	"exclude": ["node_modules/"]
+}
